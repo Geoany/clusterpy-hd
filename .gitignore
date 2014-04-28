@@ -1,0 +1,8 @@
+*~
+*.so
+*.pyc
+*.c
+*.log
+testOutputs
+corec
+.DS_Store
