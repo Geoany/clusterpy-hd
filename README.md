@@ -7,7 +7,8 @@ If that what you are looking for, go to [Clusterpy on Github][1].
 
 ### Extra requirements
  * mpi4py
- * h5py
+ * h5py (Compiled for parallel support)
+ * cython
 
 ## Small print
 This version is experimental and we are not giving support for it, but if you

@@ -4,8 +4,11 @@ import sys
 try:
   import numpy
   import scipy
+
+  import h5py
+  import mpi4py
 except ImportError:
-  sys.exit("install requires: 'numpy', 'scipy'" +
+  sys.exit("install requires: 'numpy', 'scipy', 'h5py', 'mpi4py'" +
     "optional packages: 'matplotlib', 'Polygon2'")
 
 install_requires = ['numpy', 'scipy', 'matplotlib', 'Polygon2']

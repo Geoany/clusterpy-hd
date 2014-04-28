@@ -3,3 +3,5 @@ nose
 scipy
 Polygon2
 matplotlib
+mpi4py
+cython
