@@ -1,9 +1,8 @@
-[![Build Status](https://travis-ci.org/clusterpy/clusterpy-hd.png?branch=master)](https://travis-ci.org/clusterpy/clusterpy)
-
+[![Build Status](https://travis-ci.org/clusterpy/clusterpy-hd.svg?branch=master)](https://travis-ci.org/clusterpy/clusterpy-hd)
 # ClusterPy HD
 
 ## This is not your regular Clusterpy
-If that what you are looking for, go to [Clusterpy on Github][1].
+If that's what you are looking for, go to [Clusterpy on Github][1].
 
 ### Extra requirements
  * mpi4py

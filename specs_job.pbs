@@ -1,0 +1,13 @@
+#PBS -N pythonhdf5
+#PBS -l nodes=16
+#PBS -e /home/ruth/pbs_logs/stderr.txt
+#PBS -o /home/ruth/pbs_logs/stdout.txt
+
+module load python/2.7.3
+
+PY=`which python`
+MPI=`which mpiexec`
+
+cd /home/ruth
+#$MPI -n 16 $PY clspy_par_hdf5.py 50000 10
+$MPI -n 16 $PY smalltest.py
